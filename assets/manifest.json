@@ -1,14 +1,15 @@
 {
-  "name": "Page Redder",
+  "name": "是轻型纸哦查询助手",
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
-  "description": "Turns the page red when you click the icon",
+  "description": "这是一个在豆瓣小组“是轻型纸哦”中搜索某本书是否是轻型纸的插件。",
   "permissions": [
-    "activeTab",
     "scripting"
   ],
-  "background": {
-    "service_worker": "background.js"
-  }
+  "content_scripts": [{
+    "matches": ["https://*.douban.com/*"],
+    "include_globs": ["https://book.douban.com/subject/*"],
+    "js": ["contentScript.js"]
+  }]
 }
