@@ -1,0 +1,27 @@
+{
+  "name": "whats-the-paper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "webpack --mode=development -w",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.8",
+    "jquery": "^3.6.0"
+  }
+}
