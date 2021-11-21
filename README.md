@@ -2,7 +2,7 @@
 
 这是一个在豆瓣小组<a target="_blank" href="https://www.douban.com/group/731560/">“是轻型纸哦”</a>中搜索某本书是否是轻型纸的 Chrome 插件。
 
-（Chrome 插件上架申请中，可以关注本项目，或本地编译后以开发者模式运行）
+[Chrome 扩展应用下载链接](https://chrome.google.com/webstore/detail/%E6%98%AF%E8%BD%BB%E5%9E%8B%E7%BA%B8%E5%93%A6%E6%9F%A5%E8%AF%A2%E5%8A%A9%E6%89%8B/pbocpfliejhopggmmiagbeblonopmoak)
 
 This is a Chrome Extension to search for the discussion on Douban whether a book is made with light weight paper.
 
