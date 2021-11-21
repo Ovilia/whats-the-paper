@@ -2,8 +2,6 @@
 
 这是一个在豆瓣小组<a target="_blank" href="https://www.douban.com/group/731560/">“是轻型纸哦”</a>中搜索某本书是否是轻型纸的 Chrome 插件。
 
-[Chrome 扩展应用下载链接](https://chrome.google.com/webstore/detail/%E6%98%AF%E8%BD%BB%E5%9E%8B%E7%BA%B8%E5%93%A6%E6%9F%A5%E8%AF%A2%E5%8A%A9%E6%89%8B/pbocpfliejhopggmmiagbeblonopmoak)
-
 This is a Chrome Extension to search for the discussion on Douban whether a book is made with light weight paper.
 
 ## 插件截图
@@ -11,6 +9,18 @@ This is a Chrome Extension to search for the discussion on Douban whether a book
 目前插件的功能比较简单，在浏览豆瓣读书的书籍页面时，会根据书名在右侧生成一些信息，链接到小组对于书名的讨论。但是不同出版社、不同版本等的纸质是不同的，需要用户自行甄别，小组讨论内容来自豆瓣用户，仅供参考。
 
 ![](./screenshot/info.png)
+
+## 下载链接
+
+### Chrome 扩展应用商店
+
+[下载链接](https://chrome.google.com/webstore/detail/%E6%98%AF%E8%BD%BB%E5%9E%8B%E7%BA%B8%E5%93%A6%E6%9F%A5%E8%AF%A2%E5%8A%A9%E6%89%8B/pbocpfliejhopggmmiagbeblonopmoak)
+
+### 手动安装（如果应用商店无法下载）
+
+如果上面的链接无法下载，可以使用开发者模式本地加载（后续需要手动更新）。
+
+方法：下载本项目，在 Chrome 中打开 `chrome://extensions/` 右上角打开开发者模式，加载已解压的扩展程序，选择下载后的本项目 `dist` 目录。
 
 ## 什么是轻型纸？为什么要了解一本书是否是轻型纸？
 
